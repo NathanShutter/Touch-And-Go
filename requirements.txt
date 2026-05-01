@@ -1,0 +1,5 @@
+adafruit-circuitpython-fingerprint
+mysql-connector-python
+pyserial
+RPLCD
+python-dotenv

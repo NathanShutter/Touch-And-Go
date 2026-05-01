@@ -1,0 +1,53 @@
+
+
+/* style rules for body tag */
+body {background-color: #FAF8D6; /* yellow background color */
+} /* end of body tag style rules */
+
+/* style rules for h1 tag */
+h1 {font-family: sans-serif, arial, copperplate; /* font style */
+    color: #10222E; /* blue font color */
+    text-align: center; /* center h1 text */
+} /* end of h1 tag style rules */
+
+/* style rules for input tag */
+input {margin: 0.5%; /* 0.5% margin */
+} /* end of input tag style rules */
+
+/* style rules for table tag */
+table{width: 100%; /* table width 100% */
+      background-color: #10222E; /* blue background color of table */
+} /* end of table tag style rules */
+
+/* style rules for tr tag */
+tr {background-color: #10222E; /* blue background color for tr */
+} /* end of tr tag style rules */
+
+/* style rules for th */
+th {border-color: #10222E; /* blue border color */
+    width: 14.2857%; /* width of each th */
+} /* end of th style rules */
+
+/* start of form style rules */
+form {text-align: center; /* center align text */
+} /* end of form style rules */
+
+/* start of class style for center */
+.center {display: block; /* display as block */
+         margin-left: auto; /* make left margin auto */
+         margin-right: auto; /* make right margin auto */
+} /* end of class style for center */
+    
+/* start of class style for button */
+.button {background-color: #10222E; /* blue background color */
+        color: #FAF8D6; /* yellow font color */
+        border-color: #10222E; /* blue border color */
+} /* end of class style for button */
+
+/* class style for links */
+.link{color: #FAF8D6; /* yellow font color */
+} /* end of class style for links */                                         
+                                                                       
+/* class style for link:hover */
+.link:hover{color: #62B6F3; /* blue font color while hovering */
+  } /* end of class style for link:hover */
