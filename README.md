@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/images/logo.png" alt="Touch & Go Logo" width="300">
+</p>
+
 # Touch & Go
 
 > A biometric attendance tracking system using fingerprint scanning — built for university classrooms on a Raspberry Pi.
@@ -10,6 +14,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
+- [Screenshots](#screenshots)
 - [System Architecture](#system-architecture)
 - [Tech Stack](#tech-stack)
 - [Features](#features)
@@ -38,6 +43,26 @@ The system runs a Python application on a Raspberry Pi 3 Model B connected to an
 - LCD display outputs feedback after each scan — success or error
 - Web portal for students and professors to view attendance data, schedules, and contact information
 - Admin portal for managing users, courses, and fingerprint enrollment
+
+---
+
+## Screenshots
+
+Screenshots below are from static demo pages that recreate the student-facing web portal with representative data. The original site was server-rendered PHP connected to a live MariaDB database and is no longer running.
+
+> The admin panel (user management, course management) was built entirely in PHP and was not preserved as static HTML. It is documented in the [SRS](https://drive.google.com/drive/folders/1u4nIICvpnq-juQDpWkTJimE453x217N9) and sequence diagrams in [`docs/diagrams/`](docs/diagrams/).
+
+| Login | Home |
+|---|---|
+| ![Login](docs/images/screenshots/login.png) | ![Home](docs/images/screenshots/home.png) |
+
+| Analytics | Schedule |
+|---|---|
+| ![Analytics](docs/images/screenshots/analytics.png) | ![Schedule](docs/images/screenshots/schedule.png) |
+
+| Contact | Help |
+|---|---|
+| ![Contact](docs/images/screenshots/contact.png) | ![Help](docs/images/screenshots/help.png) |
 
 ---
 
