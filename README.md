@@ -68,6 +68,8 @@ Screenshots below are from static demo pages that recreate the student-facing we
 
 ## System Architecture
 
+![Raspberry Pi Hardware Setup](docs/images/pi.png)
+
 ![UML Context Diagram](docs/images/UML-Context-Diagram.png)
 
 **Architecture components:**
